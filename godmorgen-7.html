@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html la="da">
+    <head>
+        <title>test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <script>
+
+
+
+
+        function arealBeregning(tks){
+            if (Number(tks)) {
+            let first = "your string is a number";
+                return first + " " + tks
+            } else {
+             let first = "your string is a word";
+                return first + " " + tks
+            }
+
+
+        }
+
+
+            let længde = prompt("hvad er længden?")
+            let bredde = prompt("hvad er bredden?")
+
+
+
+            function arealBeregning(are){
+                let first = "arealet er"
+                return first + " " + are
+            }
+
+            if (Number(længde) && Number(bredde)) {
+                let are = længde * bredde;
+                alert(arealBeregning(are))
+            } else {
+                alert("Kan ikke udregne areal")
+            }
+
+
+           let forFra = confirm("vil du starte forfra?")
+
+           if (forFra) {
+               location.reload();
+           }
+
+
+
+        </script>
+    </body>
+
+</html>
